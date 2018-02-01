@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         btnCheckUpdate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Beta.checkUpgrade();
+                BuglyManager.getInstance().checkUpgrade(false);
             }
         });
 
