@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BuglyTest.iml" filepath="$PROJECT_DIR$/BuglyTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/upgradeDemo/app.iml" filepath="$PROJECT_DIR$/upgradeDemo/app.iml" />
+      <module fileurl="file://E:\GitHub\BuglyTest\upgradeDemo\app.iml" filepath="E:\GitHub\BuglyTest\upgradeDemo\app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/buglyHotfixEasyDemo/buglyHotfixEasyDemo.iml" filepath="$PROJECT_DIR$/buglyHotfixEasyDemo/buglyHotfixEasyDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/upgradeDemo/upgradeDemo.iml" filepath="$PROJECT_DIR$/upgradeDemo/upgradeDemo.iml" />
     </modules>
   </component>
 </project>

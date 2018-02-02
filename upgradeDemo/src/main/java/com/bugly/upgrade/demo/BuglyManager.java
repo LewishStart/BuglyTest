@@ -7,6 +7,7 @@ import com.tencent.bugly.Bugly;
 import com.tencent.bugly.BuglyStrategy;
 import com.tencent.bugly.beta.Beta;
 import com.tencent.bugly.beta.UpgradeInfo;
+import com.tencent.bugly.beta.upgrade.UpgradeListener;
 
 /**
  * author: sundong
@@ -34,6 +35,28 @@ public class BuglyManager {
      * 手动检查更新
      */
     public void init() {
+        upGradeInit();
+        setUpGradeListener();
+    }
+
+    private void setUpGradeListener() {
+        Beta.upgradeListener = new UpgradeListener() {
+            @Override
+            public void onUpgrade(int i, UpgradeInfo upgradeInfo, boolean b, boolean b1) {
+                if (upgradeInfo != null) {
+                    //有更新
+                } else {
+                    //无更新
+
+                }
+            }
+        };
+    }
+
+    /**
+     * 更新初始化
+     */
+    private void upGradeInit() {
         /**** Beta高级设置*****/
         /**
          * true表示app启动自动初始化升级模块；
