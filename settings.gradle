@@ -1,1 +1,1 @@
-include ':upgradeDemo', ':buglyHotfixEasyDemo'
+include ':upgradeDemo', ':buglyHotfixEasyDemo', ':buglyHotfixDemo'

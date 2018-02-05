@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BuglyTest.iml" filepath="$PROJECT_DIR$/BuglyTest.iml" />
       <module fileurl="file://E:\GitHub\BuglyTest\upgradeDemo\app.iml" filepath="E:\GitHub\BuglyTest\upgradeDemo\app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/buglyHotfixDemo/app.iml" filepath="$PROJECT_DIR$/buglyHotfixDemo/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/buglyHotfixEasyDemo/buglyHotfixEasyDemo.iml" filepath="$PROJECT_DIR$/buglyHotfixEasyDemo/buglyHotfixEasyDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/upgradeDemo/upgradeDemo.iml" filepath="$PROJECT_DIR$/upgradeDemo/upgradeDemo.iml" />
     </modules>
