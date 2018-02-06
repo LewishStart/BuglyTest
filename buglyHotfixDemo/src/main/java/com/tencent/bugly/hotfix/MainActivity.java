@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 android.os.Process.killProcess(android.os.Process.myPid());
                 break;
             case R.id.btnLoadPatch: // 本地加载补丁测试
-                Beta.applyTinkerPatch(getApplicationContext(), Environment.getExternalStorageDirectory().getAbsolutePath() + "/patch_signed_7zip.apk");
+                Beta.applyTinkerPatch(getApplicationContext(), Environment.getExternalStorageDirectory().getAbsolutePath() + "/Android/data/com.tencent.bugly.hotfix/files/apk/patch_signed.apk");
                 break;
             case R.id.btnLoadLibrary: // 本地加载so库测试
                 TestJNI testJNI = new TestJNI();
